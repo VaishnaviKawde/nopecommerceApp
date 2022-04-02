@@ -1,0 +1,1 @@
+pytest -v -s -m "sanity" testCases/ --browser chrome
