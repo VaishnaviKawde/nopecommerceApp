@@ -2,7 +2,7 @@ from selenium import webdriver
 import pytest
 from selenium.webdriver.chrome.service import Service
 
-
+#fixture
 @pytest.fixture()
 def setup(browser):
     if browser == "chrome":
